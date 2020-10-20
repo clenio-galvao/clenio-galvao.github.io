@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(245, 255, 228);
+    color: rgb(3, 29, 68);
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Bungee Shad e', 'cursiva';
+    color: rgb(36, 49, 25);
+}
+.fonteOpenSans {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.tamanhoMaior {
+    font-size: 30px;
+}
+.tamanhoMenor {
+    font-size: 20px;
+}
+strong {
+    color: rgb(47, 151, 193);
+    font-weight: 600;
+}
+img {
+    border-radius: 10%;
+}
