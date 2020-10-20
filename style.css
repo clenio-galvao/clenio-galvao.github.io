@@ -23,3 +23,30 @@ strong {
 img {
     border-radius: 10%;
 }
+.head {
+    min-width: 350px;
+    padding: 35px;  
+}
+.nome_box {
+    text-align: center;
+}
+.foto_box {
+    float: left;
+    padding: 20px;
+    margin-left: 150px;
+    background-color: rgb(169, 229, 187);
+    vertical-align: middle;
+}
+.descricao_box {
+    text-align: justify;
+    margin-left: 450px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 600px;
+}
+.footer {
+    clear: both;
+    margin-top: 50px;
+    margin-left: 250px;
+    text-align: center;
+}
