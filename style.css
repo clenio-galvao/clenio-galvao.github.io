@@ -1,7 +1,6 @@
 body {
     background-color: rgb(245, 255, 228);
-    color: rgb(3, 29, 68);
-    text-decoration: none;
+    color: rgb(3, 29, 68);    
 }
 h1 {
     font-family: 'Bungee Shad e', 'cursiva';
@@ -30,12 +29,20 @@ img {
 .nome_box {
     text-align: center;
 }
-.foto_box {
+.foto_esquerda img{
     float: left;
     padding: 20px;
     margin-left: 150px;
-    background-color: rgb(169, 229, 187);
-    vertical-align: middle;
+    background-color: rgb(88, 77, 61);
+    margin-bottom: 20px;
+    width: 180px;
+   
+}
+.foto_direita img{
+    float: right;
+    padding: 10px;
+    margin-right: 170px;
+    width: 400px;
 }
 .descricao_box {
     text-align: justify;
@@ -44,9 +51,24 @@ img {
     padding-top: 10px;
     width: 600px;
 }
-.footer {
+.meio_pagina {
     clear: both;
-    margin-top: 50px;
-    margin-left: 250px;
-    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: rgb(169, 229, 187);
+}
+.habilidades_box {
+    width: 1000px;
+    margin-left: 180px;
+    text-decoration: none;
+}
+.habilidades_box2 {
+    width: 900px;
+    margin-left: 180px;
+    text-decoration: none;
+}
+.habilidades_box2 li {
+    display: inline-block;
+    text-decoration: none;
 }
