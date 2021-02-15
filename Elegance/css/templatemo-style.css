@@ -838,7 +838,7 @@ textarea.form-control {
   margin-bottom: -10px;
 }
 .skill-bar {
-  width: 70%;
+  width: 65%;
   height: 6px;
   border-radius: 3px;
   background-color: rgba(250,250,250,0.25);
@@ -847,7 +847,7 @@ textarea.form-control {
 .filled-bar {
   position: absolute;
   z-index: 99;
-  width: 64%;
+  width: 50%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -855,7 +855,31 @@ textarea.form-control {
 .filled-bar-2 {
   position: absolute;
   z-index: 99;
-  width: 82%;
+  width: 70%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-3 {
+  position: absolute;
+  z-index: 99;
+  width: 80%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-4 {
+  position: absolute;
+  z-index: 99;
+  width: 90%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-5 {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
