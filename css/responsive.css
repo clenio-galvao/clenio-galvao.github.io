@@ -112,6 +112,9 @@
 	.testimonials-section {
 		padding-top:10px;
 	}
+	.projects-section {
+		padding-top:10px;
+	}
 	.owl-carousel .owl-dots {
 		margin-top:35px;
 	}
@@ -303,6 +306,9 @@
 	.testimonials-section {
 		padding-top:0;
 	}
+	.projects-section {
+		padding-top:0;
+	}
 	h4 {
 		font-size:18px;
 	}
@@ -374,6 +380,9 @@
 		margin-right: 10px;
 	}
 	.testimonials-section {
+		font-size:13px;
+	}
+	.projects-section {
 		font-size:13px;
 	}
 	.form-control {
