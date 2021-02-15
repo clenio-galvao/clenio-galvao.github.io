@@ -48,6 +48,7 @@ html {
 }
 .alltrans,
 .social-icons li a,
+.back li a,
 .owl-nav > button,
 .owl-nav > button:after,
 .counter-box,
@@ -399,6 +400,7 @@ div#logo-down {
   color:#1e1e1e;
   background-color: #fff;
 }
+
 /*==============================================
 04. WELCOME BLOCK CSS
 ================================================*/
