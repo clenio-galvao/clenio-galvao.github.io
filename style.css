@@ -1,74 +1,132 @@
+html {
+    width: 100%;
+}
+
 body {
     background-color: rgb(245, 255, 228);
-    color: rgb(3, 29, 68);    
+    color: #243119;   
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-h1 {
+
+header {
+    min-height: 100px;
+    max-height: 80px;
+    width: 100%;
+    background-color: rgb(19, 46, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
     font-family: 'Bungee Shad e', 'cursiva';
-    color: rgb(36, 49, 25);
+    color: rgb(232, 236, 228);
+    width: 40%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+header ul {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+header a {
+    color: rgb(232, 236, 228);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
 .fonteOpenSans {
     font-family: 'Open Sans Condensed', sans-serif;
 }
-.tamanhoMaior {
-    font-size: 30px;
-}
-.tamanhoMenor {
-    font-size: 20px;
-}
+
 strong {
     color: rgb(47, 151, 193);
     font-weight: 600;
 }
-img {
-    border-radius: 10%;
+
+.presentation {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 100px;
 }
-.head {
-    min-width: 350px;
-    padding: 35px;  
-}
-.nome_box {
-    text-align: center;
-}
-.foto_esquerda img{
-    float: left;
-    padding: 20px;
-    margin-left: 150px;
-    background-color: rgb(88, 77, 61);
-    margin-bottom: 20px;
-    width: 180px;
-   
-}
-.foto_direita img{
-    float: right;
-    padding: 10px;
-    margin-right: 170px;
-    width: 400px;
-}
+
 .descricao_box {
-    text-align: justify;
-    margin-left: 450px;
-    padding-left: 10px;
-    padding-top: 10px;
-    width: 600px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    width: 60%;
+    background-image: url();
 }
+
 .meio_pagina {
-    clear: both;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-    background-color: rgb(169, 229, 187);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    position: relative;
+    top: 100px;
 }
+
 .habilidades_box {
-    width: 1000px;
-    margin-left: 180px;
-    text-decoration: none;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.habilidades_box2 {
-    width: 900px;
-    margin-left: 180px;
-    text-decoration: none;
+
+.foto_direita {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
 }
-.habilidades_box2 li {
-    display: inline-block;
-    text-decoration: none;
+
+.foto_direita img {
+    border-radius: 100%;
+    width: 80%;
+}
+
+footer {
+    height: 10%;
+    /* max-height: 0px; */
+    width: 100%;
+    background-color: #FF9B71;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    font-family: 'Bungee Shad e', 'cursiva';
+    color: rgb(232, 236, 228);
+    width: 80%;
+    min-height: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }

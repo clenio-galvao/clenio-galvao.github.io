@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(245, 255, 228);
+    color: rgb(3, 29, 68);
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Bungee Shad e', 'cursiva';
+    color: rgb(36, 49, 25);
+}
+.fonteOpenSans {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.tamanhoMaior {
+    font-size: 30px;
+}
+.tamanhoMenor {
+    font-size: 20px;
+}
+strong {
+    color: rgb(47, 151, 193);
+    font-weight: 600;
+}
+.head {
+    padding: 35px;  
+}
+.nome_box {
+    text-align: center;
+}
+.foto_esquerda {
+    float: left;
+    padding: 20px;
+    margin-left: 150px;
+    background-color: rgb(88, 77, 61);
+    margin-bottom: 100px;    
+    border-radius: 10%;
+    width: 100px;
+}
+.foto_direita {
+    float: right;
+    padding: 20px;
+    margin-right: 150px;
+    width: 100px;
+}
+.descricao_box {
+    text-align: justify;
+    margin-left: 450px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 600px;
+}
+.meio_pagina {
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(169, 229, 187);
+}
+.habilidades_box {
+    width: 500px;
+    margin-left: 450px;    
+}
+.habilidades_box li {
+    list-style-type: none;
+}
+.habilidades_box p {
+    text-align: justify;
+}
