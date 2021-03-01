@@ -139,16 +139,17 @@ footer nav {
         text-align:right!important;
 }
 #back {
-        background-color: darkgray;
         border-radius: 5px;
         padding:0;
         position: fixed;
-        top: 10%;
+        top: 7%;
         transform: translateY(-50%);
         left:0;
         z-index: 199;
+        margin-left: 10px;
 }
 .back {
+        background-color: darkgray;
         margin:0;
         padding:0;
         list-style:none;
@@ -165,11 +166,11 @@ footer nav {
         text-align:center;
         background: rgba(255, 255, 255, 0.1);
         color: rgba(255,255,255,1);
-        font-size:18px;
+        font-size:25px;
 }
 .back li a:hover {
         color:#1e1e1e;
-        background-color: #fff;
+        background-color: darkgray;
 }
 .back {
         margin: 0 auto;
